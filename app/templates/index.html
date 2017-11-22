@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+      {% block content_paralax %}
+      <!-- start parallax header -->
+      <div class="parallax-container">
+
+	    <div class="row container">
+	    <br><br><br><br><br><br>
+
+
+	      <h2 class="header center-align grey-text">Envie sua foto</h2>
+
+          <form action="#">
+            <div class="file-field input-field">
+              <div class="btn">
+                <span>File</span>
+                <input type="file" multiple>
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path validate" type="text" placeholder="Upload one or more files">
+              </div>
+            </div>
+          </form>
+
+	    </div>
+
+	    <div class="parallax">
+	      <img src="app/static/imgs/heade2.jpg">
+	    </div>
+
+	  </div>
+	  <!-- End parallax header -->
+      {% endblock content_paralax %}
+
